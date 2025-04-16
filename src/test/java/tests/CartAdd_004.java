@@ -1,7 +1,7 @@
 package tests;
 
 import base.BaseTest;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import pages.BookDetailPage;
 import pages.BookPage;
 import pages.CartPage;

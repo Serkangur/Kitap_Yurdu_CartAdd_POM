@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParallelTestSuite" parallel="methods" thread-count="3">
+
+    <test name="ParallelTests">
+        <classes>
+            <class name="tests.CartAdd_001"/>
+            <class name="tests.CartAdd_002"/>
+            <class name="tests.CartAdd_003"/>
+
+        </classes>
+    </test>
+
+</suite>
